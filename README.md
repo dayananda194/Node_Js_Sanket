@@ -15,5 +15,7 @@ Step5) Configure the nodemon by specifying the command in package.json file in t
     Scripts {
       "start" : npx nodemon index.js 
   }
-Step6) Run the node project using
+Step6) Install the body-parser package for reading the body parameters of the request.
+   > npm i body-parser
+Step7) Run the node project using
     > npx start
